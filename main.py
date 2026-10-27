@@ -15,7 +15,10 @@ for index, row in df.iterrows():
              ln=1)
     pdf.line(10,21,200,21)
 
+<<<<<<< HEAD
     for i in range(row["Pages"]-1):
         pdf.add_page()
 
+=======
+>>>>>>> 3f63e50ec7942f41b59080e0f445cca9c01c4e24
 pdf.output("output.pdf")
